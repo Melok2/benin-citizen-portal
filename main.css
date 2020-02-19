@@ -1,5 +1,6 @@
 body{
 	font-family: 'Montserrat';
+	background-color: #eef2f8;
 }
 
 /* Navbar */
@@ -113,6 +114,7 @@ a.nav-link:focus{
 
 .card.rccm{
 	padding: 1.25rem;
+	height: fit-content;
 	margin-bottom: 24px;
 }
 
@@ -210,6 +212,9 @@ p.description{
 .footer{
 	padding: 20px;
 	background-color: #383838;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 .information-block .row{
